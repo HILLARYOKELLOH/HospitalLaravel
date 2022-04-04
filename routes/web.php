@@ -5,7 +5,6 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +18,7 @@ use App\Http\Controllers\AdminController;
 Route::get('/',[HomeController::class,'index']);
 
 Route::get('/home',[HomeController::class,'redirect']);
-Route::POST('/upload_doctor',[AdminController::class,'upload']);
+
 
 
 
@@ -29,4 +28,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('/add_doctor_view',[AdminController::class,'addview']);
 
 Route::POST('/upload_doctor',[AdminController::class,'upload']);
-Route::post('/appointment',[HomeController::class,'appointment'])->name('appointment');
+Route::POST('/appointment',[HomeController::class,'appointment']);
+Route::POST('/myappointment',[HomeController::class,'myappointment']);

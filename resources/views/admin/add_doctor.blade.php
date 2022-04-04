@@ -77,11 +77,11 @@
     <label>SPECIALITY   </label>
     <select style="color:black; width: 200px;">
     <option value="" input type="text" name="speciality">--Select--</option>
-    <option value="SKIN">Skin</option>
-    <option value="HEART">Heart</option>
-    <option value="EYE">Eye</option>
-    <option value="NOSE">Nose</option>
-    <option value="NOSE">Mouth</option>
+    <option value="skin">Skin</option>
+    <option value="heart">Heart</option>
+    <option value="eye">Eye</option>
+    <option value="nose">Nose</option>
+    <option value="mouth">Mouth</option>
   
 
 </select>

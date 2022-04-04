@@ -17,9 +17,10 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable();
             $table->string('phone')->Unique();
+            $table->string('speciality')->nullable();
             $table->string('Room')->nullable();
             $table->string('image')->nullabe();
-            $table->string('speciality')->nullable();
+          
             $table->timestamps();
         });
     }

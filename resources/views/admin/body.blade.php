@@ -30,7 +30,7 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$12.34</h3>
+                          <h3 class="mb-0">ksh1234</h3>
                           <p class="text-success ms-2 mb-0 font-weight-medium">+3.5%</p>
                         </div>
                       </div>
@@ -50,7 +50,7 @@
                     <div class="row">
                       <div class="col-9">
                         <div class="d-flex align-items-center align-self-start">
-                          <h3 class="mb-0">$17.34</h3>
+                          <h3 class="mb-0">ksh1734</h3>
                           <p class="text-success ms-2 mb-0 font-weight-medium">+11%</p>
                         </div>
                       </div>
