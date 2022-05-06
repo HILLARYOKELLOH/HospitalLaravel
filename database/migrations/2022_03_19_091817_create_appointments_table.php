@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('appointments', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
-            $table->string('E-mail')->nullable();
+            $table->string('Email')->nullable();
             $table->string('phone')->nullable();
             $table->string('doctor')->nullable();
             $table->string('date')->nullable();
